@@ -283,6 +283,11 @@ header .sn-org-holder .delo-logo:hover {
 	margin-bottom:1.6em;
 	position:relative;
 }
+#second-screen ul {
+	padding:0 30px 0 50px;
+	margin-bottom:1.6em;
+	font-size:1.5em;
+}
 #more-anchor {
 	display:block;
 	position:absolute;
@@ -292,7 +297,35 @@ header .sn-org-holder .delo-logo:hover {
 	margin-top:3em;
 	padding:0;
 }
-
+.border {
+	position:fixed;
+	z-index:10;
+	background:#47c66e;
+}
+#border-top {
+	top:0;
+	left:0;
+	width:100%;
+	height:10px;
+}
+#border-bottom {
+	bottom:0;
+	left:0;
+	width:100%;
+	height:10px;
+}
+#border-left {
+	top:0;
+	left:0;
+	height:100%;
+	width:10px;
+}
+#border-right {
+	top:0;
+	right:0;
+	height:100%;
+	width:10px;
+}
 @media screen and (max-width:1340px) {
 	#fs-text .text { padding:0 2% 0 70px; }
 }
@@ -355,6 +388,10 @@ header .sn-org-holder .delo-logo:hover {
 	#about-link { font-size:1.2em; }
 	#arrow-down { bottom:5vw; width:7vw; height:7vw; margin-left:-3vw; }
 	#second-screen p { font-size:.9em; padding:0 5vw; }
+	#second-screen ul { font-size:.9em; padding:0 5vw 0 9vw; }
 	#second-screen h2 { padding:0 3vw; }
+	#second-screen .button-holder { margin-left:5vw; margin-right:5vw; }
 	#second-screen .button-holder a { display:block; text-align:center; margin:1em 0; }
+	#border-top, #border-bottom { height:1.25vw; }
+	#border-left, #border-right { width:1.25vw; }
 }
